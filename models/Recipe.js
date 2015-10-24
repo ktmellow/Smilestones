@@ -23,11 +23,18 @@ module.exports = {
                   monkeys jumping on the bed. One fell off and bumped his head. Called the doctor and the doctor said\
                   No more monkeys jumping on the bed!')"    
                 ],
-        resources: [
-                "https://www.youtube.com/watch?v=Vr-L6q4vbWU", 
-                "http://www.target.com/p/plantoys-numbers-1-10/-/A-16540185#prodSlot=medium_1_8&term=counting+toys",
-                "http://motherhood.modernmom.com/fun-ways-teach-math-three-year-old-15797.html"
-                ],
+        resources: [{
+                type: "video",
+                url: "https://www.youtube.com/watch?v=Vr-L6q4vbWU"
+                }, {
+                type: "article",
+                url: "http://motherhood.modernmom.com/fun-ways-teach-math-three-year-old-15797.html"
+                }, {
+                type: 'target',
+                url:"product_id"
+                }
+                
+        ],
         milestones: ["counting"],
         upvotes: 27, 
         tags: [
@@ -35,6 +42,6 @@ module.exports = {
                "math", 
                "music", 
                "singing"
-            ]
+        ]
     }
 };
