@@ -1,5 +1,6 @@
 var express = require('express');
 var morgan  = require('morgan');
+var request = require('request');
 
 // Get data models
 var recipes = require('./models/Recipe');
@@ -26,6 +27,14 @@ app.get('/recipes/:id', function(req, res) {
         });
     }
     res.json(recipe);
+});
+
+app.get('/puppies', function(req, res) {
+    request.get('http://reddit.com/r/puppies.json', {
+        json: true
+    }, function(err, response, body) {
+        res.json(body);
+    });
 });
 
 // Start the app on port 5000
