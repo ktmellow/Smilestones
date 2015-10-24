@@ -1,0 +1,15 @@
+{
+  "name": "smilestones-backend",
+  "version": "1.0.0",
+  "description": "HackingEDU Smilestones Backend",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Clarence Leung <hello@clarle.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3",
+    "morgan": "^1.6.1"
+  }
+}
