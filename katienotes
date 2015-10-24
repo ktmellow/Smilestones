@@ -1,0 +1,60 @@
+
+
+
+
+Ideas for Parent Profile JSON elements:
+(mainly stuff about the parent)
+
+profile = {
+    fullName: “Clarence Leung”,
+    profilePhoto: "https://avatars2.githubusercontent.com/u/686352?v=3&s=460",
+    about: 
+    {
+        region: “San Mateo Convention Center”,
+        age: “30”,
+        bio: “As a single father, raising Sophie by myself, I needed all the help I could get. \
+         My jobs don't pay well, so we live paycheck to paycheck. \
+         I want to make sure that my daughter can afford the life I never had. \
+         Every morning I drop a quarter into a piggy bank labelled Sophie's Educational Fund. \
+         I want her to grow up to be a confident leader and passionate learner. So every moment I spend with her, I make it count. \
+         I have always relied on my close friends and family for advice but sometimes even they didn't have all the answers. \
+         After all, it takes a village to raise a child. And that's when I found Smilestones.”
+    }
+    recipesInvolved: [123] // parent documents each recipe they are trying: their own and others
+}
+
+
+recipe = 
+{   
+    id: 111, //int type, unique recipe object id
+    author: "MamaColette", //parent who created this specific version of a recipe
+    title: "Countdown To Counting",
+    submitDate: "2015-10-23T07:00:00.000Z”, //how do you format a date??
+    startAge: "0-1 years old", //start and end age can be user input, it's based on child's learning pace and needs
+    endAge: "4 years old",
+    recipe: [
+            "Count everything. Count how many blocks your toddler can stack. Or the number of steps in your house. \
+              Or his fingers and toes. Make a habit of counting out loud, and soon he'll join in.",
+            "Have your child setup the kitchen table. Matching dinner objects according to number. \
+              Encourage your little host/hostess to count while handing out the supplies \
+              and the child will acquire math skills without even realizing it.",
+            "Sing a nursery rhyme with counting. Learn as many tunes as you can, or make up your own verses ('Five little \
+              monkeys jumping on the bed. One fell off and bumped his head. Called the doctor and the doctor said\
+              No more monkeys jumping on the bed!')",    
+            ]
+    resources: [
+                "https://www.youtube.com/watch?v=Vr-L6q4vbWU", 
+                "http://www.target.com/p/plantoys-numbers-1-10/-/A-16540185#prodSlot=medium_1_8&term=counting+toys",
+                "http://motherhood.modernmom.com/fun-ways-teach-math-three-year-old-15797.html"
+               ]
+    milestones: ["counting"],
+    upvotes: 27, //some integer
+    tags: ["counting", "math", music", "singing"]
+}
+
+
+
+
+
+mongo ds043962.mongolab.com:43962/hackingedu -u hackingedu -p hackingedu
+colette.pitamba@gmail.com, contact@clarle.com, sophie.cheam@gmail.com, ktmellow@gmail.com
