@@ -1,6 +1,9 @@
 var express = require('express');
 var morgan  = require('morgan');
 
+// Get data models
+var recipes = require('./models/Recipe');
+
 // Initialize the app
 var app = express();
 
@@ -14,12 +17,15 @@ app.get('/', function(req, res) {
     });
 });
 
-app.get('/profiles/:id', function(req, res) {
-    res.json({
-        id: req.params.id,
-        fullName: 'Katherine Low',
-        tags: ['problem solving', 'math', 'counting']
-    });
+app.get('/recipes/:id', function(req, res) {
+    var recipe = recipes[req.params.id];
+    if (!recipe) {
+        res.status(404).json({
+            error: 404,
+            message: 'Data not found'
+        });
+    }
+    res.json(recipe);
 });
 
 // Start the app on port 5000
