@@ -1,11 +1,12 @@
 var express = require('express');
 var morgan  = require('morgan');
 var request = require('request');
-var _       = require('lodash');
-var recipes = require('./models/Recipe');
-var app = express();
 
-var API_KEY = '1Kfdqvy6wHmvJ4LDyAVOl7saCBoKHcSb';
+// Get data models
+var recipes = require('./models/Recipe');
+
+// Initialize the app
+var app = express();
 
 // Initialize logging
 app.use(morgan('combined'));
@@ -35,34 +36,6 @@ app.get('/puppies', function(req, res) {
         res.json(body);
     });
 });
-
-// Geocache
-// example URL1: http://localhost:5000/stores/94043 
-// example URL2: http://localhost:5000/stores/MountainView
-// example URL3: http://localhost:5000/stores/MountainView,CA
-
-app.get('/stores/:where', function(req, res) {
-
-    var where = req.params.where;
-    request.get('http://api.target.com/v2/location/geocode', {
-        qs: {
-            place: where,
-            key: API_KEY
-        },
-        json: true
-    },
-        function(err, response, body) {
-            console.log("hi there");
-
-        var address = body.Locations.Location.Address;
-        res.json({
-            "lattitude": address.Latitude, 
-            "longitude": address.Longitude, 
-            "city": address.City 
-        });
-    });
-});
-
 
 // Start the app on port 5000
 app.listen(5000, '0.0.0.0');
