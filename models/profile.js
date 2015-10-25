@@ -35,7 +35,7 @@ module.exports = {
              {
               "type": "upvote",
               "id": 121,
-              "title": "Potty Training Difficulties with my Child",
+              "title": "Turn potty training disaster into a potty training utopia!!!!",
               "description": "I've always had difficulties teaching my son to use the toilet correctly. Whether it's in the middle \
                             of class or in the middle of the street, my son always has to go at the worst times! Here are some \
                             of the tricks I've found to turn a potty training disaster into a potty training utopia...",

@@ -1,11 +1,41 @@
+// 123 124 125 are the only full samples that are ok to prototype. All else are empty dummies.
+
 module.exports = {   
+    "121": {
+        "author": "Katie Low", 
+        "title": "Turn potty training disaster into a potty training utopia!!!!",
+        "submitDate": "2015-10-23T07:00:00.000Z", 
+        "startAge": "1 years old", 
+        "endAge": "2 years old",
+        "recipe": [ 
+                ],
+        "resources": [
+        {
+                "type": 'target'
+        }]
+    },
+    "122": {
+        "author": "Katie Low", 
+        "title": "Turn potty training disaster into a potty training utopia!!!!",
+        "submitDate": "2015-10-23T07:00:00.000Z", 
+        "startAge": "1 years old", 
+        "endAge": "2 years old",
+        "recipe": [ 
+                ],
+        "resources": [
+                {"type": "target"},
+                {"type": "article"},
+                {"type": "article"},
+                {"type": "article"}
+        ]
+    },
 	"123": {
-        author: "MamaColette", 
-        title: "Countdown To Counting",
-        submitDate: "2015-10-23T07:00:00.000Z", 
-        startAge: "0-1 years old", 
-        endAge: "4 years old",
-        recipe: [
+        "author": "MamaColette", 
+        "title": "Countdown To Counting",
+        "submitDate": "2015-10-23T07:00:00.000Z", 
+        "startAge": "0-1 years old", 
+        "endAge": "4 years old",
+        "recipe": [
                 "Count everything. Count how many blocks your toddler can stack. Or the number of steps in your house. \
                   Or his fingers and toes. Make a habit of counting out loud, and soon he or she will join in.",
                 "Have your child setup the kitchen table. Matching dinner objects according to number. \
@@ -15,21 +45,21 @@ module.exports = {
                   monkeys jumping on the bed. One fell off and bumped his head. Called the doctor and the doctor said\
                   No more monkeys jumping on the bed!')"    
                 ],
-        resources: [{
-                type: "video",
-                url: "https://www.youtube.com/watch?v=Vr-L6q4vbWU"
+        "resources": [{
+                "type": "video",
+                "url": "https://www.youtube.com/watch?v=Vr-L6q4vbWU"
                 }, {
-                type: "article",
-                url: "http://motherhood.modernmom.com/fun-ways-teach-math-three-year-old-15797.html"
+                "type": "article",
+                "url": "http://motherhood.modernmom.com/fun-ways-teach-math-three-year-old-15797.html"
                 }, {
-                type: 'target',
-                url:"product_id"
+                "type": 'target',
+                "id": "204-03-2169"
                 }
                 
         ],
-        milestones: ["counting"],
-        upvotes: 27, 
-        tags: [
+        "milestones": ["counting"],
+        "upvotes": 27, 
+        "tags": [
                "counting", 
                "math", 
                "music", 
@@ -155,10 +185,8 @@ module.exports = {
                 ],
         "resources": [{
                 "type": "article",
-                "url": "http://www.earlychildhood-takalanisesame.co.za/activities/10-activities-improve-toddlers-development"
                 }, {
                 "type": "target",
-                "id": "081-06-0011"
                 }     
         ],
         "milestones": ["discipline"],
@@ -192,12 +220,9 @@ module.exports = {
                 "type": "target"
                 }     
         ],
-        "milestones": ["discipline"],
+        "milestones": ["facial recognition"],
         "upvotes": 12,
-        "tags": [
-               "spanking", 
-               "spank",
-               "discipline"        
+        "tags": [       
         ]
     }
 
@@ -209,25 +234,56 @@ module.exports = {
         "startAge": "0 months",
         "endAge": "1 year",
         "recipe": [
-                "Practice spelling and reading by labelling common items in the house: windows, tables, doors, appliances, etc. \
-                 Simply print out labels, stick them to painter's tape, and then stick them to the objects. This technique allows \
-                 same-size lettering and basic fonts, which are easy for kids to easily identify. Labeling allows children to know \
-                 that everything has a common set of symbols that can be written down and identified. Ask your child what letter \
-                 'lamp' begins with or ask your child to find the label that starts with 'L'.", 
-                "When your child starts getting the hang of spelling, ask the child to help you label, which reinforces spelling skills."   
                 ],
         "resources": [{
-                "type": "article",
+                "type": "article"}, {
                 "type": "video"
                 } 
         ],
-        "milestones": ["discipline"],
+        "milestones": ["first word", "baby babble"],
         "upvotes": 16,
         "tags": [       
         ]
     }
 
+  "204": {
+        "author": "TheWalkers", 
+        "title": "techniques to go from crawling to walking",
+        "submitDate": "2015-07-07T07:00:00.000Z", 
+        "startAge": "1 year",
+        "endAge": "3 year",
+        "recipe": [
+                ],
+        "resources": [{
+                "type": "video"}, {
+                "type": "target"
+                } 
+        ],
+        "milestones": ["walking", "first steps"],
+        "upvotes": 29,
+        "tags": [       
+        ]
+    }
 
+  "206": {
+        "author": "TheWalkers", 
+        "title": "quickly go from sitting to crawling... and safety tips!",
+        "submitDate": "2015-01-11T07:00:00.000Z", 
+        "startAge": "0 year",
+        "endAge": "1 year",
+        "recipe": [
+                ],
+        "resources": [{
+                "type": "article"}, {
+                "type": "article"}, {
+                "type": "target"
+                } 
+        ],
+        "milestones": ["walking", "first steps", "crawling"],
+        "upvotes": 17,
+        "tags": [       
+        ]
+    }    
 
 };
 
