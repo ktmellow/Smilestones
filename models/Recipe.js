@@ -1,11 +1,3 @@
-/*module.exports = {
-    "123": {
-        fullName: "Katherine Low",
-        tags: ['problem solving', 'math', 'counting']
-    }
-};
-*/
-
 module.exports = {   
 	"123": {
         author: "MamaColette", 
@@ -44,4 +36,200 @@ module.exports = {
                "singing"
         ]
     }
+
+
+    "124": {
+        "author": "Alex Leung", 
+        "title": "Spelling Stickers",
+        "submitDate": "2015-11-14T07:00:00.000Z", 
+        "startAge": "4 years old", 
+        "endAge": "6",
+        "recipe": [
+                "Practice spelling and reading by labelling common items in the house: windows, tables, doors, appliances, etc. \
+                 Simply print out labels, stick them to painter's tape, and then stick them to the objects. This technique allows \
+                 same-size lettering and basic fonts, which are easy for kids to easily identify. Labeling allows children to know \
+                 that everything has a common set of symbols that can be written down and identified. Ask your child what letter \
+                 'lamp' begins with or ask your child to find the label that starts with 'L'.", 
+                "When your child starts getting the hang of spelling, ask the child to help you label, which reinforces spelling skills."   
+                ],
+        "resources": [{
+                "type": "article",
+                "url": "http://www.earlychildhood-takalanisesame.co.za/activities/10-activities-improve-toddlers-development"
+                }, {
+                "type": "target",
+                "id": "081-06-0011"
+                }
+                
+        ],
+        "milestones": ["spelling"],
+        "upvotes": 89,
+        "tags": [
+               "language", 
+               "vocabulary", 
+               "stickers",
+               "labels", 
+               "spelling"
+        ]
+    }
+
+"125": {
+        "author": "Special_Needs_Daughter", 
+        "title": "Phoneme Awareness",
+        "submitDate": "2015-09-09T07:00:00.000Z", 
+        "startAge": "3 months", 
+        "endAge": "6 years",
+        "recipe": [
+                "Dyslexia and similar learning disabilities can be diagnosed in children as young as 3-6 years old. \
+                 Many of these children will need early intervention in developing phoneme awareness skills to sufficiently \
+                 develop their reading skills. Phonemic awareness is the ability to hear, identify, and manipulate \
+                 individual sounds in spoken words. Before children learn to read print they must be aware of how \
+                 the sounds in words work. A natural and spontaneous way of providing children with exposure to phonemes is to \
+                 focus on literature that deals playfully with speech sounds through rhymes.",
+                "Dr. Seuss books like There's a Wocket in My Pocket and Fox in Socks are great ways to introduce wordplay and build \
+                 the foundation to phoneme awareness. Spend time reading with your child and helping him or her sound out the words \
+                 and predict sentence patterns."   
+                ],
+        "resources": [{
+                "type": "article",
+                "url": "http://www.readingrockets.org/article/how-now-brown-cow-phoneme-awareness-activities"
+                }, {
+                "type": "target",
+                "id": "244-01-7499"
+                }     
+        ],
+        "milestones": ["phoneme awareness", "spelling"],
+        "upvotes": 33,
+        "tags": [
+               "dyslexia", 
+               "reading", 
+               "learning disability",
+               "onset",
+               "rhyme"
+        ]
+    }
+
+    "200": {
+        "author": "Thrynn The Magnificent... parent.", 
+        "title": "Potty Bootcamp",
+        "submitDate": "2015-02-05T07:00:00.000Z", 
+        "startAge": "1 year", 
+        "endAge": "4",
+        "recipe": [
+                "Practice spelling and reading by labelling common items in the house: windows, tables, doors, appliances, etc. \
+                 Simply print out labels, stick them to painter's tape, and then stick them to the objects. This technique allows \
+                 same-size lettering and basic fonts, which are easy for kids to easily identify. Labeling allows children to know \
+                 that everything has a common set of symbols that can be written down and identified. Ask your child what letter \
+                 'lamp' begins with or ask your child to find the label that starts with 'L'.", 
+                "When your child starts getting the hang of spelling, ask the child to help you label, which reinforces spelling skills."   
+                ],
+        "resources": [{
+                "type": "article",
+                "url": "http://www.earlychildhood-takalanisesame.co.za/activities/10-activities-improve-toddlers-development"
+                }, {
+                "type": "target",
+                "id": "081-06-0011"
+                }     
+        ],
+        "milestones": ["potty training"],
+        "upvotes": -5,
+        "tags": [
+               "toilet", 
+               "training", 
+               "potty"
+        ]
+    }
+
+   "201": {
+        "author": "Clarence Leung", 
+        "title": "When to spank your child",
+        "submitDate": "2015-08-12T07:00:00.000Z", 
+        "startAge": "3 year", 
+        "endAge": "6",
+        "recipe": [
+                "Practice spelling and reading by labelling common items in the house: windows, tables, doors, appliances, etc. \
+                 Simply print out labels, stick them to painter's tape, and then stick them to the objects. This technique allows \
+                 same-size lettering and basic fonts, which are easy for kids to easily identify. Labeling allows children to know \
+                 that everything has a common set of symbols that can be written down and identified. Ask your child what letter \
+                 'lamp' begins with or ask your child to find the label that starts with 'L'.", 
+                "When your child starts getting the hang of spelling, ask the child to help you label, which reinforces spelling skills."   
+                ],
+        "resources": [{
+                "type": "article",
+                "url": "http://www.earlychildhood-takalanisesame.co.za/activities/10-activities-improve-toddlers-development"
+                }, {
+                "type": "target",
+                "id": "081-06-0011"
+                }     
+        ],
+        "milestones": ["discipline"],
+        "upvotes": -41,
+        "tags": [
+               "spanking", 
+               "spank",
+               "discipline"        
+        ]
+    }
+
+
+  "202": {
+        "author": "SuperDuperDads", 
+        "title": "Baby's First Memories: Eye Contact and Facial Recognition",
+        "submitDate": "2015-08-12T07:00:00.000Z", 
+        "startAge": "0 months",
+        "endAge": "2 years",
+        "recipe": [
+                "Practice spelling and reading by labelling common items in the house: windows, tables, doors, appliances, etc. \
+                 Simply print out labels, stick them to painter's tape, and then stick them to the objects. This technique allows \
+                 same-size lettering and basic fonts, which are easy for kids to easily identify. Labeling allows children to know \
+                 that everything has a common set of symbols that can be written down and identified. Ask your child what letter \
+                 'lamp' begins with or ask your child to find the label that starts with 'L'.", 
+                "When your child starts getting the hang of spelling, ask the child to help you label, which reinforces spelling skills."   
+                ],
+        "resources": [{
+                "type": "article",
+                "url": "http://www.earlychildhood-takalanisesame.co.za/activities/10-activities-improve-toddlers-development"
+                }, {
+                "type": "target"
+                }     
+        ],
+        "milestones": ["discipline"],
+        "upvotes": 12,
+        "tags": [
+               "spanking", 
+               "spank",
+               "discipline"        
+        ]
+    }
+
+
+  "203": {
+        "author": "m0therof2", 
+        "title": "conversations with your infant to inspire growth",
+        "submitDate": "2015-08-12T07:00:00.000Z", 
+        "startAge": "0 months",
+        "endAge": "1 year",
+        "recipe": [
+                "Practice spelling and reading by labelling common items in the house: windows, tables, doors, appliances, etc. \
+                 Simply print out labels, stick them to painter's tape, and then stick them to the objects. This technique allows \
+                 same-size lettering and basic fonts, which are easy for kids to easily identify. Labeling allows children to know \
+                 that everything has a common set of symbols that can be written down and identified. Ask your child what letter \
+                 'lamp' begins with or ask your child to find the label that starts with 'L'.", 
+                "When your child starts getting the hang of spelling, ask the child to help you label, which reinforces spelling skills."   
+                ],
+        "resources": [{
+                "type": "article",
+                "type": "video"
+                } 
+        ],
+        "milestones": ["discipline"],
+        "upvotes": 16,
+        "tags": [       
+        ]
+    }
+
+
+
+
+    
 };
+
