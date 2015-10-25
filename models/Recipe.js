@@ -1,6 +1,7 @@
 // 123 124 125 are the only full samples that are ok to prototype. All else are empty dummies.
 
 module.exports = {   
+<<<<<<< HEAD
     "121": {
         "author": "Katie Low", 
         "title": "Turn potty training disaster into a potty training utopia!!!!",
@@ -30,6 +31,9 @@ module.exports = {
         ]
     },
 	"123": {
+=======
+  "123": {
+>>>>>>> 9cf3024e52955bb7fa433e8c968421458e0f0dd4
         "author": "MamaColette", 
         "title": "Countdown To Counting",
         "submitDate": "2015-10-23T07:00:00.000Z", 
@@ -53,7 +57,11 @@ module.exports = {
                 "url": "http://motherhood.modernmom.com/fun-ways-teach-math-three-year-old-15797.html"
                 }, {
                 "type": 'target',
+<<<<<<< HEAD
                 "id": "204-03-2169"
+=======
+                "id":"204-03-2169"
+>>>>>>> 9cf3024e52955bb7fa433e8c968421458e0f0dd4
                 }
                 
         ],
